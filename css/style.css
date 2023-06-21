@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+
+.poduct {
+    gap: 10px;
+    width: 30%;
+    height: auto;
+    background: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poduct_img {
+    width: 100%;
+    height: auto;
+}
+
+.box_1 {
+    width: 100%;
+    height: 70px;
+    border: 0;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.title {
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+}
+
+.description {
+    color: gray;
+    font-size: 12px;
+}
+
+.size {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.hr {
+    margin-top: 15px;
+    border: 0;
+    background-color: gray;
+    height: 1px;
+    width: 60%;
+}
+
+.hrs {
+    margin-top: 15px;
+    border: 0;
+    background-color: gray;
+    height: 1px;
+    width: 60%;
+}
+
+.poduct_buy {
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    padding: 3px;
+    border-radius: 15px;
+    background-color: blue;
+    color: #ffffff;
+}
+
+.box_1_img {
+    max-width: 48px;
+    height: auto;
+}
+
+.poduct_collor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.poduct_collor1 {
+    cursor: pointer;
+    border: 1px solid #c7c5c5;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.wegs {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wegse {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
